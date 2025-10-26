@@ -4,16 +4,14 @@ pageInfo:
   title: Orbidash
   description: Welcome to your new dashboard!
 
+# Optional app settings and configuration
 appConfig:
+  theme: dracula
   auth:
     users:
     - user: cj
       hash: 6f9e7c4c6b23d36755ffd60e2f59edf8d8d819c4b64a87c3013abddc34a034be94874c20b7c803cd74adeec81ecb6fc3363ebd4c4ca0874047b5f9bae5c2f8ec
       type: admin
-
-# Optional app settings and configuration
-appConfig:
-  theme: dracula
 
 # Main content - An array of sections, each containing an array of items
 sections:
